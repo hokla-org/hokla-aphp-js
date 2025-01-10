@@ -17,6 +17,6 @@ describe("Hokla", function () {
 
     const hoklaAPHP = new Inventory(drugs);
     const updatedDrugs = hoklaAPHP.updateEfficiency();
-    expect(updatedDrugs[0].name).toBe("fixme");
+    expect(updatedDrugs[0].name).toBe("toto");
   });
 });
